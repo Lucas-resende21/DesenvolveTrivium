@@ -1,0 +1,85 @@
+.logo {
+    height: 1px; /* Ajuste o tamanho do logo conforme necessário */
+    width: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+#sobre {
+    background-color: #f9f9f9;
+}
+
+#cursos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cursos ul li {
+    background-color: #eee;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5em 0 0.2em;
+}
+
+input, textarea, button {
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+}
